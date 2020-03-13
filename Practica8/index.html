@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.4.1.js"></script>
+    <script src="funciones.js"></script>
+    <script src="ajax.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="fontello.css">
+</head>
+<body>
+    <div class="contenedor">
+    <div class="caja1">
+      <h1 style="text-align: center;"> PRACRICA DE JQUERY </h1>
+    </div>
+
+    <div class="caja2">
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="icon-menu"></label>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li class="submenu"><a href="#">Item 2 <span class="icon-down-open-big"></span> </a>
+                        <ul>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu" ><a href="#">Item 3 <span class="icon-down-open-big"></span></a>
+                    <ul>
+                        <li><a href="#">Item 1</a></li>
+                        <li><a href="#">Item 2</a></li>
+                        <li><a href="#">Item 3</a></li>
+                        <li><a href="#">Item 4</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Item 4</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+
+    </div>
+    
+    <div class="caja3">
+        <input id="slider" class="slider" type="button" value="Slider">
+        
+            
+        
+    </div>
+    <div class="caja4">
+        <input type="button" id="boton" value="Cargar html externo" /> <input type="button" value="Reiniciar" class="reiniciar" />
+        <div id="htmlext" class="recargar">
+                Aqui se cargará el contenido
+        </div>
+        
+    </div>
+    <div class="caja5">
+        <h3>Ejemplo de Ajax </h3>
+<p>Datos de<a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Wikipedia</a></p>
+<div>
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/Einstein.jpg" alt="Einstein">
+  <input id="request" class="request" type="button" value="Leer sobre Einstein">
+  <div id="bio"></div>
+</div>
+        
+        
+    </div>
+    <div class="caja6">
+      <button>Start Animation</button> 
+      <div style="background:blue;height:100px;width:200px;position:absolute;">Animacion</div>
+      
+        
+    </div>
+    <div class="caja7">
+      <h3>Medidas de cajas con jquery</h3>
+        
+      <div id="div1"></div>
+      <br>
+      
+      <input id="extra" class="extra" type="button" value="Extra">
+      
+      
+  
+
+        
+    </div>
+    <div class="caja8">
+        <h4 style="text-align: center;">©2013-2018 skynet Enterprises, Inc. Todos los derechos Reservados.</h4>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
